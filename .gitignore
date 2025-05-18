@@ -1,52 +1,45 @@
-# Prerequisites
-*.d
+# Build results
+bin/
+obj/
+out/
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# MonoDevelop
+*.pidb
+*.booproj
 
-# Precompiled Headers
-*.gch
-*.pch
+# Visual Studio files
+.vs/
+.vscode/
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Rider files
+.idea/
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# NuGet packages
+*.nupkg
+*.snupkg
+.nuget/
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# Logs
+*.log
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
+# Others
+*.cache
+*.DS_Store
 *.pdb
+*.mdb
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Unity specific
+Library/
+Temp/
+Logs/
+MemoryCaptures/
+obj/
+Build/
+Builds/
+UserSettings/
